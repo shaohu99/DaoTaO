@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22A580B1CC0C16700617C47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C22A580A1CC0C16700617C47 /* main.m */; };
+		C22A580E1CC0C16700617C47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C22A580D1CC0C16700617C47 /* AppDelegate.m */; };
+		C22A58111CC0C16700617C47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22A58101CC0C16700617C47 /* ViewController.m */; };
+		C22A58141CC0C16700617C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22A58121CC0C16700617C47 /* Main.storyboard */; };
+		C22A58161CC0C16700617C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22A58151CC0C16700617C47 /* Assets.xcassets */; };
+		C22A58191CC0C16700617C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22A58171CC0C16700617C47 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C22A58061CC0C16700617C47 /* DotaRampage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaRampage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22A580A1CC0C16700617C47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C22A580C1CC0C16700617C47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C22A580D1CC0C16700617C47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C22A580F1CC0C16700617C47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C22A58101CC0C16700617C47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C22A58131CC0C16700617C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C22A58151CC0C16700617C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22A58181CC0C16700617C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C22A581A1CC0C16700617C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22A58031CC0C16700617C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22A57FD1CC0C16700617C47 = {
+			isa = PBXGroup;
+			children = (
+				C22A58081CC0C16700617C47 /* DotaRampage */,
+				C22A58071CC0C16700617C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22A58071CC0C16700617C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22A58061CC0C16700617C47 /* DotaRampage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22A58081CC0C16700617C47 /* DotaRampage */ = {
+			isa = PBXGroup;
+			children = (
+				C22A580C1CC0C16700617C47 /* AppDelegate.h */,
+				C22A580D1CC0C16700617C47 /* AppDelegate.m */,
+				C22A580F1CC0C16700617C47 /* ViewController.h */,
+				C22A58101CC0C16700617C47 /* ViewController.m */,
+				C22A58121CC0C16700617C47 /* Main.storyboard */,
+				C22A58151CC0C16700617C47 /* Assets.xcassets */,
+				C22A58171CC0C16700617C47 /* LaunchScreen.storyboard */,
+				C22A581A1CC0C16700617C47 /* Info.plist */,
+				C22A58091CC0C16700617C47 /* Supporting Files */,
+			);
+			path = DotaRampage;
+			sourceTree = "<group>";
+		};
+		C22A58091CC0C16700617C47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C22A580A1CC0C16700617C47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22A58051CC0C16700617C47 /* DotaRampage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22A581D1CC0C16700617C47 /* Build configuration list for PBXNativeTarget "DotaRampage" */;
+			buildPhases = (
+				C22A58021CC0C16700617C47 /* Sources */,
+				C22A58031CC0C16700617C47 /* Frameworks */,
+				C22A58041CC0C16700617C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotaRampage;
+			productName = DotaRampage;
+			productReference = C22A58061CC0C16700617C47 /* DotaRampage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22A57FE1CC0C16700617C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "张少华";
+				TargetAttributes = {
+					C22A58051CC0C16700617C47 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C22A58011CC0C16700617C47 /* Build configuration list for PBXProject "DotaRampage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22A57FD1CC0C16700617C47;
+			productRefGroup = C22A58071CC0C16700617C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22A58051CC0C16700617C47 /* DotaRampage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22A58041CC0C16700617C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22A58191CC0C16700617C47 /* LaunchScreen.storyboard in Resources */,
+				C22A58161CC0C16700617C47 /* Assets.xcassets in Resources */,
+				C22A58141CC0C16700617C47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22A58021CC0C16700617C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22A58111CC0C16700617C47 /* ViewController.m in Sources */,
+				C22A580E1CC0C16700617C47 /* AppDelegate.m in Sources */,
+				C22A580B1CC0C16700617C47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C22A58121CC0C16700617C47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22A58131CC0C16700617C47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C22A58171CC0C16700617C47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22A58181CC0C16700617C47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22A581B1CC0C16700617C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C22A581C1CC0C16700617C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22A581E1CC0C16700617C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotaRampage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DotaRampage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C22A581F1CC0C16700617C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotaRampage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DotaRampage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22A58011CC0C16700617C47 /* Build configuration list for PBXProject "DotaRampage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22A581B1CC0C16700617C47 /* Debug */,
+				C22A581C1CC0C16700617C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22A581D1CC0C16700617C47 /* Build configuration list for PBXNativeTarget "DotaRampage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22A581E1CC0C16700617C47 /* Debug */,
+				C22A581F1CC0C16700617C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22A57FE1CC0C16700617C47 /* Project object */;
+}
