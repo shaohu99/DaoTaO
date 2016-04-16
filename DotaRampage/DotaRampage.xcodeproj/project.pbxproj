@@ -42,6 +42,10 @@
 		C22A57FD1CC0C16700617C47 = {
 			isa = PBXGroup;
 			children = (
+				C2AFA74F1CC1D38D0080BBBB /* Base */,
+				C2AFA7501CC1D38D0080BBBB /* CodeClass */,
+				C2AFA75D1CC1D38D0080BBBB /* Document */,
+				C2AFA75F1CC1D38D0080BBBB /* Tools */,
 				C22A58081CC0C16700617C47 /* DotaRampage */,
 				C22A58071CC0C16700617C47 /* Products */,
 			);
@@ -77,6 +81,142 @@
 				C22A580A1CC0C16700617C47 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2AFA74F1CC1D38D0080BBBB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			path = DotaRampage/Base;
+			sourceTree = "<group>";
+		};
+		C2AFA7501CC1D38D0080BBBB /* CodeClass */ = {
+			isa = PBXGroup;
+			children = (
+				C2AFA7511CC1D38D0080BBBB /* HeroData */,
+				C2AFA7551CC1D38D0080BBBB /* Informatica */,
+				C2AFA7591CC1D38D0080BBBB /* Video */,
+			);
+			name = CodeClass;
+			path = DotaRampage/CodeClass;
+			sourceTree = "<group>";
+		};
+		C2AFA7511CC1D38D0080BBBB /* HeroData */ = {
+			isa = PBXGroup;
+			children = (
+				C2AFA7521CC1D38D0080BBBB /* Model */,
+				C2AFA7531CC1D38D0080BBBB /* viewControllers */,
+				C2AFA7541CC1D38D0080BBBB /* views */,
+			);
+			path = HeroData;
+			sourceTree = "<group>";
+		};
+		C2AFA7521CC1D38D0080BBBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2AFA7531CC1D38D0080BBBB /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		C2AFA7541CC1D38D0080BBBB /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C2AFA7551CC1D38D0080BBBB /* Informatica */ = {
+			isa = PBXGroup;
+			children = (
+				C2AFA7561CC1D38D0080BBBB /* Model */,
+				C2AFA7571CC1D38D0080BBBB /* viewControllers */,
+				C2AFA7581CC1D38D0080BBBB /* views */,
+			);
+			path = Informatica;
+			sourceTree = "<group>";
+		};
+		C2AFA7561CC1D38D0080BBBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2AFA7571CC1D38D0080BBBB /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		C2AFA7581CC1D38D0080BBBB /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C2AFA7591CC1D38D0080BBBB /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				C2AFA75A1CC1D38D0080BBBB /* Model */,
+				C2AFA75B1CC1D38D0080BBBB /* viewControllers */,
+				C2AFA75C1CC1D38D0080BBBB /* views */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		C2AFA75A1CC1D38D0080BBBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2AFA75B1CC1D38D0080BBBB /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		C2AFA75C1CC1D38D0080BBBB /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C2AFA75D1CC1D38D0080BBBB /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				C2AFA75E1CC1D38D0080BBBB /* Images */,
+			);
+			name = Document;
+			path = DotaRampage/Document;
+			sourceTree = "<group>";
+		};
+		C2AFA75E1CC1D38D0080BBBB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C2AFA75F1CC1D38D0080BBBB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			path = DotaRampage/Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +438,7 @@
 				C22A581F1CC0C16700617C47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
