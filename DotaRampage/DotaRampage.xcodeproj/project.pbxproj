@@ -13,6 +13,8 @@
 		C22A58141CC0C16700617C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22A58121CC0C16700617C47 /* Main.storyboard */; };
 		C22A58161CC0C16700617C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22A58151CC0C16700617C47 /* Assets.xcassets */; };
 		C22A58191CC0C16700617C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22A58171CC0C16700617C47 /* LaunchScreen.storyboard */; };
+		C2AFA7641CC266EA0080BBBB /* baseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AFA7631CC266EA0080BBBB /* baseModel.m */; settings = {ASSET_TAGS = (); }; };
+		C2AFA7671CC26AF20080BBBB /* HeroDataCarouselModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AFA7661CC26AF20080BBBB /* HeroDataCarouselModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,12 @@
 		C22A58151CC0C16700617C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C22A58181CC0C16700617C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C22A581A1CC0C16700617C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AFA7601CC1DC680080BBBB /* UrlHeadersDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlHeadersDefine.h; sourceTree = "<group>"; };
+		C2AFA7611CC218E20080BBBB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C2AFA7621CC266EA0080BBBB /* baseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseModel.h; sourceTree = "<group>"; };
+		C2AFA7631CC266EA0080BBBB /* baseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseModel.m; sourceTree = "<group>"; };
+		C2AFA7651CC26AF20080BBBB /* HeroDataCarouselModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDataCarouselModel.h; sourceTree = "<group>"; };
+		C2AFA7661CC26AF20080BBBB /* HeroDataCarouselModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDataCarouselModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 		C2AFA74F1CC1D38D0080BBBB /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C2AFA7621CC266EA0080BBBB /* baseModel.h */,
+				C2AFA7631CC266EA0080BBBB /* baseModel.m */,
 			);
 			name = Base;
 			path = DotaRampage/Base;
@@ -115,6 +125,8 @@
 		C2AFA7521CC1D38D0080BBBB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C2AFA7651CC26AF20080BBBB /* HeroDataCarouselModel.h */,
+				C2AFA7661CC26AF20080BBBB /* HeroDataCarouselModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,6 +226,8 @@
 		C2AFA75F1CC1D38D0080BBBB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C2AFA7601CC1DC680080BBBB /* UrlHeadersDefine.h */,
+				C2AFA7611CC218E20080BBBB /* PrefixHeader.pch */,
 			);
 			name = Tools;
 			path = DotaRampage/Tools;
@@ -291,6 +305,8 @@
 			files = (
 				C22A58111CC0C16700617C47 /* ViewController.m in Sources */,
 				C22A580E1CC0C16700617C47 /* AppDelegate.m in Sources */,
+				C2AFA7641CC266EA0080BBBB /* baseModel.m in Sources */,
+				C2AFA7671CC26AF20080BBBB /* HeroDataCarouselModel.m in Sources */,
 				C22A580B1CC0C16700617C47 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
